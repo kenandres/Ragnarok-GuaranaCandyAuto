@@ -1,12 +1,11 @@
-
 automacro Gurana {
- location brasilis
- inventory "Guarana Candy" < 2000
- exclusive 1
- run-once 0
-call {
- do move 186 163
- do talknpc 187 162 c r0
- release Gurana
-} 
+	location brasilis
+	inventory "Guarana Candy" < 2000
+	exclusive 1
+	run-once 0
+	call {
+		do move 186 163
+		do talknpc 187 162 c r0
+		release Gurana
+	} 
 }
