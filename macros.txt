@@ -1,6 +1,6 @@
 automacro Gurana {
 	location brasilis
-	zeny < 5000000
+	zeny > 5000000
 	inventory "Guarana Candy" < 2000
 	exclusive 1
 	run-once 0
